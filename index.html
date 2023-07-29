@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+        <script src="https://kit.fontawesome.com/3acfa95efd.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Harshith</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Experience</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Harshith</span> Software Developer</h1>
+
+                    <!-- <a href="#contact" class="button">Contact</a> -->
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/harshith-s-r-5561541a4/" title="linkedin" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:harshithmysore99@gmail.com" title="harshithmysore99@gmail.com" class="home__social-icon"><i class='bx bxs-envelope'></i></a>
+                    <a href="https://github.com/Harshith1234567" title="github" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <!-- <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/> -->
+                            <!-- <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/> -->
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <!-- <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div> -->
+                    
+                    <!-- <div> -->
+                        <h2 class="about__subtitle">I'am Harshith Saligrama Ravindra</h2>
+                        <p class="about__text">An engineer who believes in continuous improvement through innovation, technology and hard work. I am currently looking for TA/RA/Internship roles. Outside of work, I like Formula one and joging </p>           
+                    <!-- </div>                                    -->
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+<!--                     
+                    <h2 class="skills__subtitle">Profesional Skills</h2>
+                    <p class="skills__subtitle"> ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                              -->
+                    <div>
+                      
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24"><path d="M20.205 16.392c-2.469 3.289-7.741 2.179-11.122 2.338 0 0-.599.034-1.201.133 0 0 .228-.097.519-.198 2.374-.821 3.496-.986 4.939-1.727 2.71-1.388 5.408-4.413 5.957-7.555-1.032 3.022-4.17 5.623-7.027 6.679-1.955.722-5.492 1.424-5.493 1.424a5.28 5.28 0 0 1-.143-.076c-2.405-1.17-2.475-6.38 1.894-8.059 1.916-.736 3.747-.332 5.818-.825 2.208-.525 4.766-2.18 5.805-4.344 1.165 3.458 2.565 8.866.054 12.21zm.042-13.28a9.212 9.212 0 0 1-1.065 1.89 9.982 9.982 0 0 0-7.167-3.031C6.492 1.971 2 6.463 2 11.985a9.983 9.983 0 0 0 3.205 7.334l.22.194a.856.856 0 1 1 .001.001l.149.132A9.96 9.96 0 0 0 12.015 22c5.278 0 9.613-4.108 9.984-9.292.274-2.539-.476-5.763-1.752-9.596" fill="#3e6ff4" style=""></path></svg>
+                                <!-- <i class='bx bxl-spring-boot skills__icon'></i> -->
+                                <span class="skills__name">SPRING BOOT</span>
+                            </div>
+                            <!-- <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div> -->
+                        </div>
+                    
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxl-java skills__icon' ></i> -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24"><path d="M9.37,17.51c-3.09.86,1.87,2.64,5.8,1a7.18,7.18,0,0,1-1.1-.54,11.59,11.59,0,0,1-4.16.18C8.6,18,9.37,17.51,9.37,17.51Z" fill="#0077b6" style=""></path><path d="M14.7,15.83a16.27,16.27,0,0,1-5.36.26c-1.31-.14-.45-.77-.45-.77-3.4,1.12,1.89,2.4,6.64,1A2.25,2.25,0,0,1,14.7,15.83Z" fill="#0077b6" style=""></path><path d="M16.52,6.1s-6.87,1.71-3.59,5.49a1.47,1.47,0,0,1-.25,2.12s2.46-1.27,1.33-2.86S12.15,8.63,16.52,6.1Z" fill="#0077b6" style=""></path><path d="M18.13,19.14s.56.46-.63.82c-2.27.69-9.43.9-11.42,0-.72-.31.62-.74,1-.83a2.54,2.54,0,0,1,.69-.08c-.8-.56-5.15,1.1-2.21,1.58C13.61,22,20.2,20.07,18.13,19.14Z" fill="#0077b6" style=""></path><path d="M15.37,14.26a7,7,0,0,1,.92-.49s-1.51.27-3,.4a28.11,28.11,0,0,1-4.82.05C6.09,13.91,9.74,13,9.74,13a6.81,6.81,0,0,0-3.16.75C4.52,14.78,11.67,15.23,15.37,14.26Z" fill="#0077b6" style=""></path><path d="M16.28,16.7a.39.39,0,0,1-.08.09c5-1.32,3.18-4.65.78-3.81a.71.71,0,0,0-.33.25s.14-.05.43-.12C18.3,12.86,20,14.74,16.28,16.7Z" fill="#0077b6" style=""></path><path d="M12,13c-.74-1.67-3.26-3.14,0-5.71C16.09,4.08,14,2,14,2c.84,3.31-3,4.31-4.34,6.37C8.73,9.78,10.13,11.29,12,13Z" fill="#0077b6" style=""></path><path d="M16.41,21.32a29.75,29.75,0,0,1-9.14.14s.46.38,2.84.53c3.61.23,9.15-.12,9.29-1.83C19.4,20.16,19.14,20.8,16.41,21.32Z" fill="#3e6ff4" style=""></path></svg>
+                                <span class="skills__name">JAVA</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <!-- <div class="skills__bar skills__html">
+
+                            </div> -->
+                            <!-- <div>
+                                <span class="skills__percentage">95%</span>
+                            </div> -->
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <!-- <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxl-javascript skills__icon' ></i> -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24"><path d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 4.983 7.647 4.983l.006 2.055h4.363v.617H5.92s-2.927-.332-2.927 4.282 2.555 4.45 2.555 4.45h1.524v-2.141s-.083-2.554 2.513-2.554zm-.056-5.74a.784.784 0 1 1 0-1.57.784.784 0 1 1 0 1.57z" fill="#0077b6" style=""></path><path d="M18.452 7.532h-1.524v2.141s.083 2.554-2.513 2.554h-4.328s-2.432-.04-2.432 2.35v3.951s-.369 2.391 4.409 2.391c4.573 0 4.288-1.983 4.288-1.983l-.006-2.054h-4.363v-.617h6.097s2.927.332 2.927-4.282-2.555-4.451-2.555-4.451zm-3.981 10.436a.784.784 0 1 1 0 1.57.784.784 0 1 1 0-1.57z" fill="#3e6ff4" style=""></path></svg>
+                                <span class="skills__name">PYTHON</span>
+                            </div>
+                            <!-- <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div> -->
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxs-paint skills__icon'></i> -->
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="26" width="26">
+                                    <g fill="#0077b6" style="">
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path fill-rule="nonzero" d="M5 12.5c0 .313.461.858 1.53 1.393C7.914 14.585 9.877 15 12 15c2.123 0 4.086-.415 5.47-1.107 1.069-.535 1.53-1.08 1.53-1.393v-2.171C17.35 11.349 14.827 12 12 12s-5.35-.652-7-1.671V12.5zm14 2.829C17.35 16.349 14.827 17 12 17s-5.35-.652-7-1.671V17.5c0 .313.461.858 1.53 1.393C7.914 19.585 9.877 20 12 20c2.123 0 4.086-.415 5.47-1.107 1.069-.535 1.53-1.08 1.53-1.393v-2.171zM3 17.5v-10C3 5.015 7.03 3 12 3s9 2.015 9 4.5v10c0 2.485-4.03 4.5-9 4.5s-9-2.015-9-4.5zm9-7.5c2.123 0 4.086-.415 5.47-1.107C18.539 8.358 19 7.813 19 7.5c0-.313-.461-.858-1.53-1.393C16.086 5.415 14.123 5 12 5c-2.123 0-4.086.415-5.47 1.107C5.461 6.642 5 7.187 5 7.5c0 .313.461.858 1.53 1.393C7.914 9.585 9.877 10 12 10z" fill="#3e6ff4" style=""></path>
+                                    </g>
+                                    </svg>
+                                <span class="skills__name">SQL</span>
+                            </div>
+                            <!-- <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div> -->
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxs-paint skills__icon'></i> -->
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="26" width="26">
+                                    <g fill="#0077b6" style="">
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path fill-rule="nonzero" d="M5 12.5c0 .313.461.858 1.53 1.393C7.914 14.585 9.877 15 12 15c2.123 0 4.086-.415 5.47-1.107 1.069-.535 1.53-1.08 1.53-1.393v-2.171C17.35 11.349 14.827 12 12 12s-5.35-.652-7-1.671V12.5zm14 2.829C17.35 16.349 14.827 17 12 17s-5.35-.652-7-1.671V17.5c0 .313.461.858 1.53 1.393C7.914 19.585 9.877 20 12 20c2.123 0 4.086-.415 5.47-1.107 1.069-.535 1.53-1.08 1.53-1.393v-2.171zM3 17.5v-10C3 5.015 7.03 3 12 3s9 2.015 9 4.5v10c0 2.485-4.03 4.5-9 4.5s-9-2.015-9-4.5zm9-7.5c2.123 0 4.086-.415 5.47-1.107C18.539 8.358 19 7.813 19 7.5c0-.313-.461-.858-1.53-1.393C16.086 5.415 14.123 5 12 5c-2.123 0-4.086.415-5.47 1.107C5.461 6.642 5 7.187 5 7.5c0 .313.461.858 1.53 1.393C7.914 9.585 9.877 10 12 10z" fill="#3e6ff4" style=""></path>
+                                    </g>
+                                    </svg>
+                                <span class="skills__name">NoSQL</span>
+                            </div>
+                            <!-- <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div> -->
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxs-paint skills__icon'></i> -->
+                                <svg width="26px" height="26px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="#3e6ff4"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>data-science</title> <g id="Layer_2" data-name="Layer 2"> <g id="invisible_box" data-name="invisible box"> <rect width="48" height="48" fill="none"></rect> <rect width="48" height="48" fill="none"></rect> <rect width="48" height="48" fill="none"></rect> </g> <g id="icons_Q2" data-name="icons Q2"> <g> <path d="M43.1,13c-1.1-1.8-3.5-2.7-6.6-2.7a19.6,19.6,0,0,0-5.2.7C29.6,5.5,27,2,24,2s-5.6,3.5-7.3,9a19.6,19.6,0,0,0-5.2-.7c-3.1,0-5.5.9-6.6,2.7s.2,6.8,4,11c-3.8,4.2-5.5,8.3-4,11s3.5,2.7,6.6,2.7a19.6,19.6,0,0,0,5.2-.7c1.7,5.5,4.3,9,7.3,9s5.6-3.5,7.3-9a19.6,19.6,0,0,0,5.2.7c3.1,0,5.5-.9,6.6-2.7s-.2-6.8-4-11C42.9,19.8,44.6,15.7,43.1,13ZM24,5c1.1,0,3,2.3,4.4,6.8A38.9,38.9,0,0,0,24,13.4a38.9,38.9,0,0,0-4.4-1.6C21,7.3,22.9,5,24,5Zm6,19c0,1.4-.1,2.7-.2,3.9l-2.6,1.7L24,31.2l-3.2-1.6-2.6-1.7c-.1-1.2-.2-2.5-.2-3.9s.1-2.7.2-3.9l2.6-1.7L24,16.8l3.2,1.6,2.6,1.7C29.9,21.3,30,22.6,30,24Zm3-1.7L34.9,24,33,25.7V22.3Zm-3.6,9.5-.3,1.5-1.5-.5,1.1-.6Zm-9,1-1.5.5-.3-1.5.7.4ZM15,25.7,13.1,24,15,22.3v3.4Zm3.6-9.5.3-1.5,1.5.5-1.1.6Zm10.1-.4-1.1-.6,1.5-.5.3,1.5ZM7.5,14.5c.5-.7,2-1.2,4-1.2a18.6,18.6,0,0,1,4.5.6c-.3,1.4-.5,2.9-.7,4.5A38.4,38.4,0,0,0,11,21.9C7.9,18.5,6.9,15.6,7.5,14.5Zm4,20.2c-2,0-3.5-.5-4-1.2s.4-4,3.5-7.4a38.4,38.4,0,0,0,4.3,3.5c.2,1.6.4,3.1.7,4.5A18.6,18.6,0,0,1,11.5,34.7ZM24,43c-1.1,0-3-2.3-4.4-6.8A38.9,38.9,0,0,0,24,34.6a38.9,38.9,0,0,0,4.4,1.6C27,40.7,25.1,43,24,43Zm16.5-9.5c-.5.7-2,1.2-4,1.2a18.6,18.6,0,0,1-4.5-.6c.3-1.4.5-2.9.7-4.5A38.4,38.4,0,0,0,37,26.1C40.1,29.5,41.1,32.4,40.5,33.5ZM37,21.9a38.4,38.4,0,0,0-4.3-3.5c-.2-1.6-.4-3.1-.7-4.5a18.6,18.6,0,0,1,4.5-.6c2,0,3.5.5,4,1.2S40.1,18.5,37,21.9Z" fill="#3e6ff4"></path> <circle cx="24" cy="24" r="3"></circle> </g> </g> </g> </g></svg>
+                                
+                                <span class="skills__name">DATA SCIENCE</span>
+                            </div>
+                            <!-- <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div> -->
+                        </div>
+                    </div>
+                    
+                    <!-- <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div> -->
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work" >
+                <h2 class="section-title">EXPERIENCE</h2>
+
+                <div class="work__container bd-grid">
+
+                    <!-- <div class="onClickTextOverImage"
+                    style="background-image: url('rakutenloogo.svg')">
+                    
+                    <div><h2>Backend Engineer</h2>Worked on developing features of Microservices with SpringBoot Framework which contributed towards increasing the number of lines from 8000+  to 100000+</div>
+                    </div> -->
+
+                    <!-- <div class="onClickTextOverImage"
+                    style="background-image: url('tcslogo.png')">
+                    
+                    <div><h2>Data Analyst</h2>Analysed and  monitored network operations for a company that has over 700 stores.<br> Helped in forecasting the issue that might have occurred using Pandas and forecasting algorithms which assisted in decreasing the resolution time by 17.3%</div>
+                    </div> -->
+                    <!-- <div class="onClickTextOverImage"
+                    style="background-image: url('tcslogo.png')">
+                    <div>Bananas are <a target="_blank" href="https://www.google.com" onclick="stopPropagation(event)">Bananas</a></div>
+                    </div> -->
+
+                    <a href="" class="work__img" >
+                        <img src="rakutenloogo.svg" alt="">
+                        <div class="layer">
+                        <h2>Backend Engineer</h2>
+                        <p>Worked on developing features of Microservices with SpringBoot Framework and Couchbase</p>
+                        </div>
+                    </a>
+
+                    <a href="" class="work__img" >
+                        <img src="tcslogo.png" alt="">
+                        <div class="layer">
+                        <h2>Data Analyst</h2>
+                        <p>Analysed and  monitored network operations for a company that has over 700 stores</p>
+                        </div>
+                    </a>
+                
+                    
+                  
+                </div>
+            </section>
+
+            <!--===== Projects =====-->
+            <section class="projests section" id="projects" >
+                <h2 class="section-title">PROJECTS</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="https://github.com/Harshith1234567/Early-detection-of-Glaucoma-using-CNN" class="work__img" >
+                        <img src="glaucomaImg.jpg" alt="">
+                        <div class="layer">
+                        <h2>Detection Of Glaucoma using Convolutional Neural Networks</h2>
+                        <p>Classified OCT images using VGG19 into glocoma and non-glucoma images</p>
+                        <i class="fa-solid fa-arrow-up-right-from-square" style="color: #3e6ff4;"></i>
+                        <!-- <p>Worked on developing features of Microservices with SpringBoot Framework and Couchbase</p> -->
+                        </div>
+                    </a>
+                    <!-- <a href="https://github.com/Harshith1234567/Early-detection-of-Glaucoma-using-CNN" class="work__img" >
+                        <div class="layer"></div>
+                        <img src="glaucomaImg.jpg" alt="">Detection Of Glaucoma using Convolutional Neural Networks 
+                    </a> -->
+                
+                    <a href="https://github.com/Harshith1234567/product-spring-app-main" class="work__img" >
+                        <img src="work3.jpg" alt="" >
+                        <div class="layer">
+                        <h2>Product Management Springboot application</h2>
+                        <p>Developed a mobile device mangement application using springBoot and monitored logs using ELK stack</p>
+                        <i class="fa-solid fa-arrow-up-right-from-square" style="color: #3e6ff4;"></i>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/Harshith1234567/ChickooCount" class="work__img" >
+                        <img src="plants-guru-avenue-tree-cheeku-plant-800x800new.png" alt="">
+                        <div class="layer">
+                        <h2>Chicoo Counting using Tensorflow</h2>
+                        
+                        <p >Created an object detection model using tensorflow zoo model and counted the fruits in the image</p>
+                        <i class="fa-solid fa-arrow-up-right-from-square" style="color: #3e6ff4;"></i>
+                        <!-- <p>Worked on developing features of Microservices with SpringBoot Framework and Couchbase</p> -->
+                        </div>
+                    </a>
+                    <!-- <a href="https://github.com/Harshith1234567/product-spring-app-main" class="work__img">
+                        <img src="work3.jpg" alt="">Product Management Spring boot application
+                    </a> -->
+
+                    <!-- <a href="https://github.com/Harshith1234567/railway-database-management" class="work__img">
+                        <img src="train.jpg" alt="">Railway Database Management
+                    </a> -->
+
+                    <!-- <a href="https://github.com/Harshith1234567/ChickooCount" class="work__img">
+                        <img src="plants-guru-avenue-tree-cheeku-plant-800x800new.png" width="300" 
+                        height="300" alt="">Chicoo Counting using Tensorflow
+                    </a> -->
+
+                    <!-- <a href="https://github.com/Harshith1234567/railway-database-management" class="work__img">
+                        <img src="pacman.png " width="350" 
+                        height="300" alt="">Pacman using Reinforcement learning
+                    </a> -->
+                    
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <!-- <img src="coffee.png" width="80" 
+                height="100" alt="Coffe Logo" style="margin-left: auto; margin-right: auto;"
+                 />
+									
+									<p style="text-align: center;">Let's have coffee Together</p>
+									<a href="https://calendly.com/harshithsr" rel="noopener noreferrer" target="_blank"
+										style="text-decoration: none" class="contact__form">
+                                        <input style="
+													color: white;
+													padding: 10px;
+													padding-left: 30px;
+													padding-right: 30px;
+													font-size: large;
+                                                    position: relative;
+													border: 2px solid blue;
+													box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+														0 10px 10px rgba(0, 0, 0, 0.22);
+													background-color: blue;
+                                                    text-align: center; 
+												" type="Button"  value="When?" /> -->
+                                                <!-- <input type="button" value="When?" class="contact__button button"> -->
+									<!-- </a> -->
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <!-- <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" placeholder="Messsage" id="" cols="0" rows="10" class="contact__input"></textarea> -->
+                        <img src="coffee.png" width="80" 
+                height="100" alt="Coffe Logo" style="margin-left: auto; margin-right: auto;"
+                 />
+                 <br>
+                 <h3 style="text-align: center;">Let's have coffee Together</h3>
+                 <br>
+									<a href="https://calendly.com/harshithsr" rel="noopener noreferrer" target="_blank"
+										style="text-decoration: none" >
+                        <input style="text-align: left;" type="button" value="When?" class="contact__button button">
+                    </a>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <!-- <footer class="footer">
+            <p class="footer__title">Marlon</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+        </footer> -->
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="scripts.js"></script>
+    </body>
+</html>

@@ -134,7 +134,7 @@ img {
     height: 100%;
     padding: 2rem;
     background-color: var(--second-color);
-    transition: .5s;
+    transition: .1s;
   }
 }
 
@@ -246,7 +246,7 @@ img {
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
-  transition: .3s;
+  transition: .1s;
 }
 
 .button:hover {
@@ -367,7 +367,7 @@ img {
 }
 
 .work__img:hover img {
-  transition: 2s;
+  transition: 1s;
   transform: scale(1.1);
 }
 
@@ -459,6 +459,7 @@ img {
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
+  background-color: var(--first-color);
 }
 
 /* ===== FOOTER =====*/
@@ -522,6 +523,11 @@ img {
     align-items: center;
     text-align: initial;
   }
+
+  .university-name{
+    color: var(--first-color);
+  }
+
   .skills__container {
     grid-template-columns: .7fr;
     justify-content: center;
@@ -533,6 +539,17 @@ img {
     column-gap: 2rem;
     padding-top: 2rem;
   }
+
+  .runshaw-experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.work__img:nth-last-child(1):nth-child(odd) {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
   .contact__form {
     width: 360px;
     padding-top: 2rem;
@@ -556,7 +573,7 @@ img {
     text-align:center;
     opacity:0;
     visibility:hidden;
-    transition:.9s;
+    transition:.1s;
   }
   
   .onClickTextOverImage.show div{
@@ -565,7 +582,12 @@ img {
     visibility:visible;
   }
 }
-
+#runshaw-experience {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+  /* z-index: 9999; Ensure it appears on top of other elements */
+}
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -650,7 +672,7 @@ img {
     text-align:center;
     opacity:0;
     visibility:hidden;
-    transition:.9s;
+    transition:.1s;
   }
   
   .onClickTextOverImage.show div{
